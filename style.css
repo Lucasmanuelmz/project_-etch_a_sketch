@@ -1,0 +1,31 @@
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 800px; 
+    height: 800px;
+    margin: 10px auto;
+    border: solid 3px;
+    border-style: groove;
+    gap: 1px;
+}
+
+.grade {
+    width: 2px; 
+    height: 2px;
+    flex: 1 1 auto;
+    border: solid 0.4px #333;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+#button {
+    padding: 16px 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
