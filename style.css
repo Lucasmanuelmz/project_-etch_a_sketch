@@ -10,10 +10,9 @@
 }
 
 .grade {
-    width: 2px; 
-    height: 2px;
-    flex: 1 1 auto;
-    border: solid 0.4px #333;
+    width: calc(800px / 16px * var(popUpNumber)) - 1px; 
+    height: calc(800px / 16px * var(popUpNumber)) - 1px;
+    flex: 1;
     background-color: black;
     box-sizing: border-box;
 }

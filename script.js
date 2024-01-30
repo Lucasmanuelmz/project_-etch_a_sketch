@@ -23,9 +23,8 @@ function selectGrades() {
     }); 
     } 
    } else {
-    alert('The number should not be greater than 100!')
+    alert('The number should not be greater than 100!');
 }
-
 }   
 
 button.addEventListener('click', selectGrades);
