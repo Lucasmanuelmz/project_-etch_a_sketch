@@ -7,14 +7,20 @@
     border: solid 3px;
     border-style: groove;
     gap: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 .grade {
-    width: calc(800px / 16px * var(popUpNumber)) - 1px; 
-    height: calc(800px / 16px * var(popUpNumber)) - 1px;
-    flex: 1;
+    width: 10px;
+    height: 10px;
+    flex: 1 1 auto;
     background-color: black;
     box-sizing: border-box;
+    padding: 0;
 }
 
 #button {
