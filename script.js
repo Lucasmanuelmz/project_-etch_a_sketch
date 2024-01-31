@@ -50,7 +50,7 @@ function createGrid(numberOfSquares) {
 
             setTimeout( () => {
                 e.target.style.backgroundColor = ''
-            }, 3000)
+            }, 300000)
     });
 
 }
